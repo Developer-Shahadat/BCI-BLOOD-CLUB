@@ -2,13 +2,14 @@ import React from "react";
 
 const LogIn = () => {
   return (
-    <div className="hero min-h-screen bg-base-200">
+    <div className="hero min-h-screen bg-red-500">
       <div className="hero-content flex-col lg:flex-row">
-        <div className="text-center ">
-          <h1 className="text-5xl font-bold">LogIn now!</h1>
+        <div className="w-1/2 lg:mr-40 ">
+          
           <img src="https://i.ibb.co/58B9rf8/man-chair-donating-his-blood-into-blood-bag-11197-411-removebg-preview-1.png" />
         </div>
-        <div className="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+        <div className="card shrink-0 w-full max-w-sm shadow-2xl bg-red-400">
+        <h1 className="text-3xl text-center font-bold">LogIn now!</h1>
           <form className="card-body">
             <div className="form-control">
               <label className="label">

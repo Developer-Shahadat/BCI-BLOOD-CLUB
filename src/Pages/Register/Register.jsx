@@ -1,22 +1,23 @@
 import React from "react";
 
 const Register = () => {
-    const handleSubmit = e => {
-        e.preventDefault();
-        const form = e.target;
-        const name =  form.name.value;
-        const email = form.email.value;
-        const passowrd = form.password.value;
-        console.log(email,name,passowrd);
-    }
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const form = e.target;
+    const name = form.name.value;
+    const email = form.email.value;
+    const passowrd = form.password.value;
+    console.log(email, name, passowrd);
+  };
   return (
     <div className="hero min-h-screen bg-red-500">
       <div className="hero-content flex-col lg:flex-row">
-        <div className="text-center ">
-          <h1 className="text-5xl font-bold">Register now!</h1>
-          <img src="https://i.ibb.co/C9BZLrL/world-blood-day-concept-vector-flat-illustrations-199064-821-removebg-preview.png"  />
+        <div className="w-1/2 lg:mr-40 ">
+          
+          <img src="https://i.ibb.co/C9BZLrL/world-blood-day-concept-vector-flat-illustrations-199064-821-removebg-preview.png" />
         </div>
         <div className="card shrink-0 w-full max-w-sm shadow-2xl bg-red-400">
+        <h1 className="text-3xl font-bold text-center ">Register now!</h1>
           <form onSubmit={handleSubmit} className="card-body">
             <div className="form-control ">
               <label className="label">
